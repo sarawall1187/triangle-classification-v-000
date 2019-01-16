@@ -9,7 +9,7 @@ class Triangle
   end
   
   def kind(side1, side2, side3) 
-    @equilateral = side1 == side2 == side3
+    @equilateral = side1 == side2 && side == side3
     @isosceles = side1 == side2 || side2 == side3 || side1 == side3
     @scalene = 
     self.kind
